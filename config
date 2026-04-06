@@ -1,0 +1,16 @@
+# 🔹 Database Configuration
+DB_CONFIG = {
+    "database": "data_db",
+    "user": "postgres",
+    "password": "1234",
+    "host": "localhost",
+    "port": "5432"
+}
+
+
+# 🔹 Email Configuration (Gmail SMTP)
+EMAIL_CONFIG = {
+    "sender": "sachinchaudhari28198@gmail.com",        # 👉 Your Gmail
+    "password": "ibvlcaqrlskicwrj",         # 👉 Gmail App Password (NOT normal password)
+    "receiver": "your_email@gmail.com"       # 👉 Where you want to receive alerts
+}
